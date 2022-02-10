@@ -78,7 +78,7 @@ Fig. 1: Dashboard page # 1
 
 Fig. 2: Dashboard page # 2
 
-![Dashboard]()
+![Dashboard](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashbooard_3.png)
 
 
 
