@@ -105,8 +105,13 @@ The data collected by the National Weather Service (NWS) can augment many of the
 The two main components are Catalog and data files. Catalog primarily contains the metadata of the event and data files contain events for a certain sensor in an hierarchical format, where the data is stored as an integer type. Depending on the sensor type, these integers can be decoded into floating type values, which represent the actual values captured by the sensor. Decoding is performed either using linear scaling or an exponential transformation.
 ## References 
 https://github.com/googlecodelabs/tools
+
 https://www.ncdc.noaa.gov/stormevents/ftp.jsp
+
 https://nbviewer.jupyter.org/github/MIT-AI-Accelerator/eie-sevir/blob/master/examples/SEVIR_Tutorial.ipynb
+
 Visualizing BigQuery data using Data Studio | Google Cloud
+
 GitHub - MIT-AI-Accelerator/sevir_challenges: AI Challenges based on the SEVIR weather dataset
+
 Loading data into BigQuery
