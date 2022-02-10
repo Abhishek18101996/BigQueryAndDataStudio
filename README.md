@@ -66,10 +66,21 @@ Total property damage (in Dollars) by state
 Total crop damage (in Dollars) by state
 
 
+![DashBoard_1](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/DashBoard_1.png)
+
+
 
 Fig. 1: Dashboard page # 1
 
+![Dashboard_2]()
+
+
+
 Fig. 2: Dashboard page # 2
+
+![Dashboard]()
+
+
 
 Fig. 3: Dashboard page # 3
 
