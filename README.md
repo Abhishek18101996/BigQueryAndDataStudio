@@ -71,18 +71,21 @@ ORDER BY MAGNITUDE DESC
 
 
 Fig. 1: Dashboard page # 1
+
 ![DashBoard_1](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/DashBoard_1.png)
 
 
 
 
 Fig. 2: Dashboard page # 2
+
 ![Dashboard_2](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashboard_2.png)
 
 
 
 
 Fig. 3: Dashboard page # 3
+
 ![Dashboard](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashbooard_3.png)
 
 
