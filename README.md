@@ -69,6 +69,7 @@ ORDER BY MAGNITUDE DESC
 7. Total property damage (in Dollars) by state
 8. Total crop damage (in Dollars) by state
 
+Dashboard Link : https://datastudio.google.com/s/iR5pu5rj5qo
 
 Fig. 1: Dashboard page # 1
 
