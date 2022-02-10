@@ -110,8 +110,8 @@ https://www.ncdc.noaa.gov/stormevents/ftp.jsp
 
 https://nbviewer.jupyter.org/github/MIT-AI-Accelerator/eie-sevir/blob/master/examples/SEVIR_Tutorial.ipynb
 
-Visualizing BigQuery data using Data Studio | Google Cloud
+https://cloud.google.com/bigquery/docs/visualize-data-studio
 
-GitHub - MIT-AI-Accelerator/sevir_challenges: AI Challenges based on the SEVIR weather dataset
+https://github.com/MIT-AI-Accelerator/sevir_challenges
 
-Loading data into BigQuery
+https://www.youtube.com/watch?v=Abzj-Vyhi74&ab_channel=GoogleCloudTech
