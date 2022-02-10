@@ -121,9 +121,6 @@ https://github.com/MIT-AI-Accelerator/sevir_challenges
 https://www.youtube.com/watch?v=Abzj-Vyhi74&ab_channel=GoogleCloudTech
 
 Group Members:
-Name 	NUID
-Aditi Krishna	2193067
-Abhishek Jaiswal	2191150
-Sushrut Mujumdar	1563244
+
 ![image](https://user-images.githubusercontent.com/37017771/153502035-dde7b1ec-5020-4505-954a-2e67528366e7.png)
 
