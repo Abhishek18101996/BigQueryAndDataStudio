@@ -19,18 +19,21 @@ In the query editor, add a query that you wish to run on the table.
 Loading data directly to Google Data Studio for analysis has certain limitations. Data blending in Data Studio uses left outer join. 
 As per our use case, we need to combine Storm-Event details files for the year 2018 and 2019. Since Google Data Studio does not allow union operation we perform this union in BigQuery. Run the following query in the query editor.
  
+```
 SELECT EPISODE_ID, EVENT_ID, STATE, YEAR, MONTH_NAME, EVENT_TYPE, CZ_NAME, CZ_TIMEZONE, INJURIES_DIRECT, DEATHS_DIRECT, DAMAGE_CROPS, DAMAGE_PROPERTY, MAGNITUDE, BEGIN_LAT, BEGIN_LON, STATE_FIPS 
 FROM `assignment-1-340501.storm2018.storm_details2018`
 UNION ALL 
 SELECT EPISODE_ID, EVENT_ID, STATE, YEAR, MONTH_NAME, EVENT_TYPE, CZ_NAME, CZ_TIMEZONE, INJURIES_DIRECT, DEATHS_DIRECT, DAMAGE_CROPS, DAMAGE_PROPERTY, MAGNITUDE, BEGIN_LAT, BEGIN_LON, STATE_FIPS 
 FROM `assignment-1-340501.storm2019.storm_details2019`
+```
 
  
 Now that we have a combined view of the Storm-Event dataset for2018 and 2019, we perform a left join on the new table with SEVIR's metadata file. Run the following query in the query editor on BigQuery.
 
+```
 SELECT E.EPISODE_ID, E.EVENT_ID, E.STATE, E.YEAR, E.MONTH_NAME, E.EVENT_TYPE, E.CZ_NAME, E.CZ_TIMEZONE, E.INJURIES_DIRECT, E.DEATHS_DIRECT, E.DAMAGE_CROPS, E.DAMAGE_PROPERTY, E.MAGNITUDE, E.BEGIN_LAT, E.BEGIN_LON, E.STATE_FIPS, S.id, S.file_name, S.file_index, S.img_type 
 FROM `assignment-1-340501.storm_union.storm_details_all` as E LEFT JOIN `assignment-1-340501.catalog.sevir-catalog` as S ON E.EVENT_ID = S.event_id
-
+```
 
 Save the above view into a new table, this will be added as a source to Google Data Studio for analysis.
 
@@ -55,11 +58,12 @@ Count of images by image type and storm event type.
 Highest magnitude of Thunderstorm-wind and Hail-storm by state.
 For this we used a Custom Query
 
+```
 SELECT STATE, MAGNITUDE, EVENT_TYPE
 FROM `assignment-1-340501.sevir_storm_leftjoin.storm_sevir_left`
 WHERE EVENT_TYPE IN ('Hail', 'Thunderstorm Wind')
 ORDER BY MAGNITUDE DESC
-
+```
 
 Total number of distinct storm events by state and season.
 Total property damage (in Dollars) by state
