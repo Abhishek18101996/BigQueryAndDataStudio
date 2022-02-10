@@ -51,6 +51,7 @@ FROM `assignment-1-340501.storm_union.storm_details_all` as E LEFT JOIN `assignm
 
 ## Dashboard
 Dashboard Link : https://datastudio.google.com/s/iR5pu5rj5qo
+
 SEVIR and Storm-Event datasets analysis answers the following queries for the years 2018 and 2019.
 1. Number of unique storm events (event_id) by state using a Geo-chart.
 2. Breakdown of direct injuries (in percentage) by storm event type.
