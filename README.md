@@ -72,7 +72,7 @@ Total crop damage (in Dollars) by state
 
 Fig. 1: Dashboard page # 1
 
-![Dashboard_2]()
+![Dashboard_2](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashboard_2.png)
 
 
 
