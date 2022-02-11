@@ -1,5 +1,8 @@
 # SEVIR and Storm Events Analysis using Google BigQuery and Google Data Studio
 Processing Storm data from SEVIR dataset in Google Big Query and visualizing interesting insights from it using Data Studio. Used csv file as the source of Data for this project.
+
+Report source link: https://docs.google.com/document/d/15agB-fbBIva-FM_bUXEggcz9bDuFSzUiMBhUJdudBxQ/edit?usp=sharing
+
 # Part I: 
 Analysis of CATALOG.csv (the metadata file for SEVIR dataset) and Storm Events datasets for the years 2018 and 2019. 
 ## Steps for analyzing SEVIR metadata in Big Query and Data Studio
